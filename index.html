@@ -6,6 +6,33 @@
     <title>Personal Webpage</title>
 <link rel="stylesheet" href="about-me.css">
     <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            animation: backgroundChange 10s infinite alternate;
+        }
+
+        @keyframes backgroundChange {
+            0% {
+                background-color: #ff7f7f;
+            }
+            25% {
+                background-color: #ffbf7f;
+            }
+            50% {
+                background-color: #7fff7f;
+            }
+            75% {
+                background-color: #7f7fff;
+            }
+            100% {
+                background-color: #ff7fff;
+            }
+        }
         
     </style>
 </head>

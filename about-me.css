@@ -1,4 +1,4 @@
-   body {
+      body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -10,10 +10,10 @@
             padding: 1em 0;
             text-align: center;
         }
-nav {
+       nav {
     background-color: #333;
     padding: 10px;
-}
+    }
 nav a {
     color: #fff;
     text-decoration: none;
@@ -29,9 +29,8 @@ nav a {
     }
 }
 
-/* Apply animation to each link with a delay */
 nav a {
-    animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 nav a:nth-child(1) {

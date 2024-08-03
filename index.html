@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Webpage</title>
-<link rel="stylesheet" href="about-me.css">
-    <style>
-        
-    </style>
-</head>
-<body>
+    <title>New Dev 24 Portfolio Webpage</title>
+    <meta name="description" content="new-dev24 about, portfolio, projects, frontend developer, learn more">
+    <link rel="stylesheet" href="about-me.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style></style>
+  </head>
+  <body>
     <header>
-        <h1>New Dev 24</h1>
-        <nav><a href="#">About Me</a> | <a href="#">Newbie Developer</a> | <a href="#">Tech Enthusiast</a> | <a href="#">Blogger</a></nav>
+      <h1>New Dev 24 - Portfolio Webpage</h1>
     </header>
-    <div class="container">
-        <section id="main">
-            <h2>About Me</h2>
-            <p>Hello! I'm a passionate learner with a love for creating innovative and efficient web solutions probbably. I have no background in computer science but I thrive on learning new technologies.</p>
-            
-            <h2>Contact</h2>
-            <ul>
-                <li>Email: <a href="#">Wait for my email</a></li>
-                <li>GitHub: <a href="https://github.com/New-Dev24" target="_blank">github.com/New-Dev24</a></li>
-            </ul>
-            
-            <h2>Projects</h2>
-            <p>I will update my projects when I'm done building them locally</p>
-            
-            <h2>Interests</h2>
-            <p>In addition to web development, I have a keen interest in artificial intelligence, cybersecurity, and open-source contributions. I also enjoy writing technical / non-technical articles during my free time and sharing my knowledge with the community through my blog.</p>
+    <nav>
+        <a href="#welcome-section">About Me</a> | <a href="#project-holder">Newbie Developer</a> | <a href="#interest">Tech Enthusiast</a> 
+        | <a href="#">Contact Me</a> | <a href="https://github.com/New-Dev24" target="_blank">GitHub</a>   
+    </nav>
+    <main>
+        <section id="welcome-section" class="first">
+            <div class="welcome-text">
+                <h2>HEY! Welcome to My Portfolio Page</h2>
+                <p>Here you can find my latest projects and more! Hello! I'm a passionate learner with a 
+                    love for creating innovative and efficient web solutions probbably.
+                    I have no background in computer science but I thrive on learning new technologies.</p>
+            </div>
         </section>
-    </div>
-    <footer>
+        <section id="projects" class="second">
+            <div class="projects-text">
+              <h2>My FrontEnd Skills</h2>
+               <div class="spans row">
+                 <span class="col-md-4">
+                    <p class="btn btn-primary">HTML</p>
+                  </span>
+                 <span class="col-md-4">
+                    <p class="btn btn-primary">CSS</p>
+                 </span>
+                 <span class="col-md-4">
+                    <p class="btn btn-primary">JavaScript</p>
+                 </span>
+               </div>
+            </div>
+        </section>
+        <section id="project-holder" class="third">
+            <h2>FrontEnd Project Experience</h2>
+        <div class="projectHolder">
+           <div class="demo-projects row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Project: Building A Responsive Survey Form</h3>
+                        <p class="card-text">Build a survey form</p>
+                        <a href="https://www.freecodecamp.org/certification/Letmethink24/responsive-web-design" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Project: Building A Responsive Product Landing Page</h3>
+                        <p class="card-text">Build a product landing page</p>
+                        <a href="https://www.freecodecamp.org/certification/Letmethink24/responsive-web-design" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Project: HTML Technical Documentation Page</h3>
+                        <p class="card-text">Build a Technical Documentation page</p>
+                        <a href="https://www.freecodecamp.org/certification/Letmethink24/responsive-web-design" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+        </section>
+      <section id="interest" class="fourth">
+        <h2>Interests</h2>
+        <p>In addition to web development, I have a keen interest in artificial intelligence, cybersecurity,
+            and open-source contributions. I also enjoy writing technical / non-technical articles during 
+            my free time and sharing my knowledge with the community through my blog.</p>
+      </section>
+    </main>
+    <footer id="footer">
         <p>&copy; 2024 & onwards => New-Dev24. All rights reserved.</p>
     </footer>
-</body>
+    <script src="#"></script>
+  </body>
 </html>

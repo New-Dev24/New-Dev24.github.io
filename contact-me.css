@@ -11,6 +11,16 @@ body {
     background-color: #fab6b6;
 }
 
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid #b0f3b0;
+    border-radius: 10px;
+}
+
 #contact {
     max-width: auto;
     height: 100dvh;

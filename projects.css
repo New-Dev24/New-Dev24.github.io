@@ -1,0 +1,43 @@
+#live-project {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: transparent;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid #b0f3b0;
+    border-radius: 10px;
+}
+
+#together {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #b0f3b0;
+    border-radius: 10px;
+}
+
+#embed {
+    border-radius: 10px;
+    width: 45vw;
+}
+
+.btn {
+    width: 45vw;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+}
